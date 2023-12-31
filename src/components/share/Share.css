@@ -1,0 +1,25 @@
+.socialMedias{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    align-items: center;
+    gap:1rem;
+    box-shadow: var(--primaryBoxShadow);
+    padding: 1rem;
+    position: absolute;
+    background-color: var(--background);
+}
+.shareArea{
+    position: relative;
+}
+@media (max-width:1000px) {
+    .socialMedias{
+        left: -10rem;
+    }
+  
+    
+}
+@media (max-width:600px) {
+        
+} .socialMedias{
+    left: -12rem;
+}

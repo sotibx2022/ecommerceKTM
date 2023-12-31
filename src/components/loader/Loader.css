@@ -1,0 +1,69 @@
+.loader{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    
+}
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loaderContainer {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--secondary);
+    display: grid;
+    place-items: center;
+    z-index: 11111;
+  }
+  .loaderCube {
+    background-color: var(--background);
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    animation: chase 2.1s infinite;
+  }
+  
+  @keyframes chase {
+    0% {
+      top: 0;
+      left: 0;
+      transform: rotate(0deg);
+    }
+    25% {
+      top: 0;
+      left: 100%;
+      transform: rotate(90deg);
+    }
+    50% {
+      top: 100%;
+      left: 100%;
+      transform: rotate(180deg);
+    }
+    75% {
+      top: 100%;
+      left: 0;
+      transform: rotate(270deg);
+    }
+    100% {
+      top: 0;
+      left: 0;
+      transform: rotate(360deg);
+    }
+  }
+  
+  .secondLoaderCube {
+    animation-delay: 0.7s;
+  }
+  
+  .thirdLoaderCube {
+    animation-delay: 1.4s;
+  }

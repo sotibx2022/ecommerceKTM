@@ -1,0 +1,17 @@
+.allReviewsUserProfile{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 1px solid var(--secondary);
+}
+.reviewItem{
+    background: var(--background);
+  box-shadow: var(--primaryBoxShadow);
+  padding: 1rem;
+}
+.reviewedBy{
+    font-style: italic;
+}
+.reviewedBy span{
+    font-weight: bold;
+}

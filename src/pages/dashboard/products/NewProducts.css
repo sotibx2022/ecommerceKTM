@@ -1,0 +1,15 @@
+.dashboardProductImage{
+width: 15vw;
+}
+.productsPageHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+tr{
+    box-shadow: var(--primaryBoxShadow);
+    margin-bottom: 1rem;
+}
+thead{
+    background-color: var(--secondary);
+}

@@ -1,0 +1,11 @@
+.total{
+    text-align: right;
+    width: 100%;
+    font-weight: bolder;
+}
+@media (max-width:500px) {
+    .cartIdTitle, .cartIdInfo{
+        display: none;
+    }
+    
+}

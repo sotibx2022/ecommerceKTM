@@ -1,0 +1,54 @@
+.contactUs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+}
+.ContactusImg{
+    max-width: 40vw;
+}
+.contactUsInputs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+.contactUs-textArea{
+    width: 100%;
+}
+.contactCheckBox{
+    display: flex;
+    justify-content: flex-start;
+    margin:1rem auto;
+}
+.form-check-input{
+    width: 2rem;
+    margin-right: 1rem;
+}
+.contactRight{
+    align-self: center;
+}
+.main-hero-para{
+    font-size: 1.2rem;
+    margin:1rem auto;
+    font-style: italic;
+}
+textarea{
+    font-size: 1rem;
+}
+@media (max-width:1000px) {
+   
+    .contactLeft{
+        display: none;
+    }
+    .contactUs{
+        grid-template-columns: repeat(2,1fr);
+       
+    }
+    .contactRight{
+        max-width: 95vw;
+        width: 40rem;
+    }
+    
+}

@@ -1,0 +1,84 @@
+.sliders {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+
+  min-width: 100vw;
+}
+.singleSlider {
+  width: 100%;
+}
+.sliderItem {
+  min-width: 100vw;
+  position: relative;
+  transition: 1s;
+}
+.sliderItem h1 {
+  top: 70%;
+  color: var(--background);
+  padding-left: 1rem;
+}
+.sliderItem p {
+  top: 80%;
+  color: var(--background);
+  padding-left: 1rem;
+}
+
+.sliderIdentifier {
+  background-color: var(--primary);
+  width: 0.8rem;
+  height: 0.8rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+.sliderButtons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.sliderButtons button {
+  font-size: 2rem;
+
+  display: grid;
+  place-items: center;
+}
+.identifierCollection {
+  position: absolute;
+  display: flex;
+  gap: 1rem;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sliderContent {
+  background: rgba(145, 151, 174, 0.7);
+  position: absolute;
+  top: 70%;
+  padding: 1rem;
+}
+.sliderNext[disabled],
+.sliderPrevious[disabled] {
+  pointer-events: none;
+  background-color: var(--primary);
+}
+.activeIndicator {
+  background-color: var(--secondary);
+  width: 1rem;
+  transition: 1s;
+}
+.sliderItem img {
+  width: 100vw;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width:800px) {
+  .sliderButtons button {
+    font-size: 1rem;
+ padding: 0.5rem;
+  }
+}
+

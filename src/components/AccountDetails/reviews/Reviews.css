@@ -1,0 +1,60 @@
+.singleReview {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    display: table-cell;
+    text-align: left;
+    border:1px solid var(--primary);
+  }
+
+ thead{
+  background-color: var(--secondary);
+  color:var(--background);
+ }
+.reviewButtons button:nth-child(1){
+  margin-bottom: 0.5rem;
+}
+  img {
+ 
+    height: auto;
+  }
+.imageInReview{
+  max-width: 20vw;
+}
+@media (max-width:1000px) {
+  .ratingTitle{
+    display: none;
+  }
+  .ratingInfo{
+    display: none;
+  }
+  
+}
+@media (max-width:800px) {
+  .reviewPriceTitle{
+    display: none;
+
+  }
+  .reviewPriceInfo{
+    display: none;
+  }
+  @media (max-width:600px) {
+    .reviewCategoryTitle,.reviewCategoryInfo{
+      display: none;
+    }
+    
+  }
+}

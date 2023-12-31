@@ -1,0 +1,14 @@
+.dashboardItems{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.dashboardChildren{
+    flex: 4;
+    padding: 1rem;
+}
+.dashboardPageHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem auto;
+}

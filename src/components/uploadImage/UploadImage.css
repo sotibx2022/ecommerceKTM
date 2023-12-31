@@ -1,0 +1,15 @@
+.addImage{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.addImage label{
+    cursor: pointer;
+}
+.imageArea{
+    margin-right: 1rem;
+}
+.uploadBtn:disabled{
+    
+    cursor: not-allowed;
+}

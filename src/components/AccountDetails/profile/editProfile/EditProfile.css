@@ -1,0 +1,14 @@
+.editProfileContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    gap:1rem;
+}
+.editProfileForm button{
+    margin-top:1rem;
+}
+@media (max-width:1000px) {
+    .editProfileContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

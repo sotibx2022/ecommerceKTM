@@ -1,0 +1,28 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: var(--background);
+    border-radius: 10px;
+    justify-content: space-between;
+    min-width: 30vw;
+    
+  }
+  
+  .searchInput {
+    border:none;
+    background-color: var(--background);
+  }
+  
+  .searchButton {
+    border: none;
+    cursor: pointer;
+  }
+  .headerSearch{
+    
+    border-radius: 1rem;
+   
+  }
+  .searchButton:hover{
+    background-color: var(--secondary) !important;
+  }

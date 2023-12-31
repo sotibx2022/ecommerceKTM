@@ -1,0 +1,31 @@
+.accountProfile{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid var(--secondary);
+  }
+  .accountDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    
+  }
+  .profileHover{
+    position: absolute;
+    left: -3rem;
+    top: 100%;
+    padding-top:1rem;
+    display: none;
+    min-width: 300px;
+    
+  }
+
+.profile:hover .profileHover{
+  display: flex;
+}

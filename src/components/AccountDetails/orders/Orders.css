@@ -1,0 +1,12 @@
+.pending{
+    background-color: rgb(170, 183, 70);
+    color:rgb(59, 69, 16);
+    padding:0.1rem 0.5rem;
+}
+@media (max-width:800px) {
+    .orderNumberTitle,
+    .orderNumberInfo{
+        display: none;
+    }
+    
+}

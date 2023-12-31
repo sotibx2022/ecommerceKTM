@@ -1,0 +1,71 @@
+.addressTextarea{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,1fr);
+}
+.profileDetailsArea{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+.profileDummy{
+    max-width: 20vw;
+    height: 20vw;
+    border:1px solid var(--secondary);
+    border-radius: 50%;
+    min-width: 15rem;
+  min-height: 15rem;
+  margin-bottom: 1rem;
+    
+}
+.profileContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+}
+.flexItems{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+   
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--primaryBoxShadow);
+    padding: 1rem;
+    border-right: 2px solid var(--secondary);
+}
+.profileTitle{
+    font-weight: bold;
+}
+.profileEditButton{
+    margin-top:1rem;
+}
+
+.profileImageArea{
+   display: grid;
+   place-items: center;
+}
+.profileButtons{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    width: 60%;
+}
+@media (max-width:1000px) {
+    .profileButtons{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:600px) {
+    .profileContainer{
+        grid-template-columns: repeat(1,1fr);
+        
+        
+    }
+    
+    
+}

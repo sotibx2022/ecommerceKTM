@@ -1,0 +1,7 @@
+
+.reviewEdit form {
+  display: grid;
+  place-items: center;
+  grid-template-rows: repeat(auto-fit, minmax(1fr, auto));
+  grid-gap: 1rem;
+}

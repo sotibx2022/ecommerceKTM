@@ -1,0 +1,38 @@
+.formItem .errorMessage{
+    opacity: 0;
+}
+.formItem input:invalid[focus="true"]{
+    border:1px solid red;
+}
+.formItem input:valid{
+    border:1px solid green;
+}
+.formItem input:invalid[focus="true"] ~.errorMessage{
+    color:red;
+    opacity: 1;
+}
+.formItem input:valid ~.errorMessage{
+opacity: 0;
+}
+
+.formItem {
+  
+   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.formItem input{
+    height: 3rem;
+}
+.errorMessage{
+    height: 2rem;
+}
+.formItem label{
+   
+    font-size: 1rem;
+    top:1rem;
+    
+}
+

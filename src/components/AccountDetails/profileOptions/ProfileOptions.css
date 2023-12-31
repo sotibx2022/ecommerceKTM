@@ -1,0 +1,19 @@
+.profileOptions {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
+  row-gap: 1rem;
+  box-shadow: var(--primaryBoxShadow);
+  padding: 1rem;
+
+  background-color: var(--background);
+  cursor: pointer;
+}
+.profileOptions > * {
+  border-bottom: 1px solid var(--secondary);
+}
+.profileSummary{
+  z-index: 111;
+}
+.profileOptions li{
+  color:var(--primary);
+}

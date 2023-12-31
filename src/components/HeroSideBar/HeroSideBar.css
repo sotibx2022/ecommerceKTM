@@ -1,0 +1,12 @@
+.heroSideBar {
+  margin-top: 1rem;
+  display: grid;
+  place-items: center;
+  color: white;
+  background: linear-gradient(225deg, hsla(228, 15%, 63%, 0.8) 32%, hsla(3, 93%, 62%, 0.8) 60%), url(../../assets/heroimage.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  max-width: 20vw;
+  min-width: 20rem;
+}

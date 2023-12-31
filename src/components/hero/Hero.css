@@ -1,0 +1,9 @@
+.heroSection {
+  width: 100vw;
+  position: relative;
+  margin: 2rem auto;
+  
+  overflow: hidden;
+  margin-top:-2rem;
+  
+}

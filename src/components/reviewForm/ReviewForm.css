@@ -1,0 +1,20 @@
+.reviewForm{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.reviewForm textarea{
+    width: 100%;
+}
+.reviewProfile{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border:1px solid var(--secondary);
+}
+.star{
+    cursor: pointer;
+}
+.submitReviewButton{
+    max-width: 10rem;
+}

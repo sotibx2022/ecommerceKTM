@@ -1,0 +1,32 @@
+.dashboardBlock{
+    min-width: 400px;
+    max-width: 600px;
+    box-shadow: var(--primaryBoxShadow);
+}
+.dashboardContainer{
+    
+    gap:1rem;
+}
+.chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slice {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip: rect(0, 100px, 200px, 0);
+  }
+  .widgets{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    gap:2rem;
+  }
+  
+ 

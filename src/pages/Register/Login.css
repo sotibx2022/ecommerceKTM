@@ -1,0 +1,84 @@
+.loginArea{
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-height: 80vh;
+    justify-content: center;
+    
+}
+.loginArea > :nth-child(2) {
+    justify-self: center;
+    align-self: center;
+  }
+.loginImage{
+    max-height: 80vh;
+    width: 100%;
+    max-width: 40vw;
+    min-width: 40vw;
+}
+
+
+  .loginOptions {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .loginForm{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    min-width: 40vw;
+    
+
+  }
+  .registerHere{
+    color:var(--primary);
+    text-decoration: underline;
+  }
+  .registerArea{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:5rem;
+    align-items: center;
+
+    
+  }
+  .registerArea > :nth-child(1) {
+    justify-self: center;
+    align-self: center;
+  }
+  .loginBtn{
+    max-width: 10rem;
+  }
+.googleIcon{
+  width: 2rem;
+  height: 2rem;
+  }
+  .loginWithGoogle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem;
+    cursor: pointer;
+    
+  }
+  .loginWithGoogle h3{
+    margin:0;
+    padding: 0;
+  }
+  @media (max-width:1000px) {
+    .loginAreaLeft{
+      display: none;
+    }
+    .registerAreaRight{
+      display: none;
+    }
+    .loginArea,.registerArea{
+      grid-template-columns: repeat(1,1fr);
+    }
+    
+    
+  }
+ 
