@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# ecommerceKTM
+Introducing ecommerceKTM, a fully mobile-responsive React project with Redux Toolkit. Seamlessly connect with Google Firebase for user authorization, product management, order tracking, and more. It's packed with interactive features, charts, and custom CSS. Get ready to showcase your awesome ecommerceKTM project! 🚀
+>>>>>>> 59e1cccd2e9f7d9f44b90dfcedd0b79bb1caad3a
