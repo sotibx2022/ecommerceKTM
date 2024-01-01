@@ -56,7 +56,7 @@ const App = () => {
         <Toaster />
         <Routes>
           <Route
-            path="/ecommerceKTM/"
+            path="/"
             element={
               <AppLayout>
                 <Home />
