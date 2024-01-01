@@ -52,11 +52,11 @@ const App = () => {
 
   return (
     <div>
-<BrowserRouter>
+<BrowserRouter basename="ecommerceKTM">
         <Toaster />
         <Routes>
           <Route
-            path="/"
+            path=""
             element={
               <AppLayout>
                 <Home />

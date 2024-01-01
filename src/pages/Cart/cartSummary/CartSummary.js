@@ -27,7 +27,7 @@ const CartSummary = (props) => {
   return (
     <div>
         {loading ? <Loader /> : <div className="cartSummary container">
-            <h1><span>Cart Summary</span></h1>
+            <h1 className='cartSummaryTitle'><span>Cart Summary</span></h1>
             <div className='cartSummaryItem'><span>Number of items</span><p>{cartArray.length}</p></div>
             <div className='cartSummaryItem'><span>Sub Total</span> <p>$ {subTotal}</p></div>
             <div className='cartSummaryItem'><span>Shipping Price</span> <p>$100</p> </div>

@@ -116,8 +116,8 @@ const Cart = () => {
                         {cartItem.product.title || cartItem.product.productName}
                       </h2>
 
-                      <p>Brand: {cartItem.product.brand || "N/A"}</p>
-                      <p>
+                      <p className="cartBrand">Brand: {cartItem.product.brand || "N/A"}</p>
+                      <p className="cartCategory">
                         Category:{" "}
                         {cartItem.product.category ||
                           cartItem.product.productCategory}

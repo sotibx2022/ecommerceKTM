@@ -58,4 +58,14 @@ input[type="number"] {
         }
        
       }
+     
+}
+@media (max-width:800px) {
+    .cartImage{
+      display: none;
+    }
+    .cartBrand,.cartCategory{
+      display: none;
+    }
+   
 }

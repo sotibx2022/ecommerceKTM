@@ -34,4 +34,7 @@
         margin:0 !important;
         
     }
+    .cartSummaryTitle{
+        display: none;
+    }
 }
