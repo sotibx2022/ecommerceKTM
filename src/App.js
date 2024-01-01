@@ -56,7 +56,7 @@ const App = () => {
         <Toaster />
         <Routes>
           <Route
-            path=""
+            path="/ecommerceKTM/"
             element={
               <AppLayout>
                 <Home />
@@ -64,7 +64,7 @@ const App = () => {
             }
           />
           <Route
-            path="cart"
+            path="/ecommerceKTM/cart"
             element={
               <AppLayout>
                 <Cart />
@@ -72,7 +72,7 @@ const App = () => {
             }
           />
           <Route
-            path="register"
+            path="/ecommerceKTM/register"
             element={
               <AppLayout>
                 <Register />
@@ -80,7 +80,7 @@ const App = () => {
             }
           />
           <Route
-            path="login"
+            path="/ecommerceKTM/login"
             element={
               <AppLayout>
                 <Login />
@@ -88,7 +88,7 @@ const App = () => {
             }
           />
           <Route
-            path="allproducts"
+            path="/ecommerceKTM/allproducts"
             element={
               <AppLayout>
                 <AllProducts />
@@ -96,7 +96,7 @@ const App = () => {
             }
           />
            <Route
-            path="allnewproducts"
+            path="/ecommerceKTM/allnewproducts"
             element={
               <AppLayout>
                 <AllNewProducts />
@@ -104,7 +104,7 @@ const App = () => {
             }
           />
           <Route
-            path="about"
+            path="/ecommerceKTM/about"
             element={
               <AppLayout>
                 <About />
@@ -112,7 +112,7 @@ const App = () => {
             }
           />
           <Route
-            path="contact"
+            path="/ecommerceKTM/contact"
             element={
               <AppLayout>
                 <Contact />
@@ -121,7 +121,7 @@ const App = () => {
           />
 
           <Route
-            path="allproducts/productdetails/:productName/:productId"
+            path="/ecommerceKTM/allproducts/productdetails/:productName/:productId"
             element={
               <AppLayout>
                 <ProductDetails />
@@ -130,7 +130,7 @@ const App = () => {
           />
 
           <Route
-            path="newproducts/newproductdetails/:productName/:productId"
+            path="/ecommerceKTM/newproducts/newproductdetails/:productName/:productId"
             element={
               <AppLayout>
                 <NewProductDetails />
@@ -139,7 +139,7 @@ const App = () => {
           />
 
           <Route
-            path="allproducts/search"
+            path="/ecommerceKTM/allproducts/search"
             element={
               <AppLayout>
                 <AllProducts />
@@ -147,7 +147,7 @@ const App = () => {
             }
           />
           <Route
-            path="reset"
+            path="/ecommerceKTM/reset"
             element={
               <AppLayout>
                 <Reset />
@@ -157,7 +157,7 @@ const App = () => {
           {/* ------------------------FOR REGISTERED USER ----------------- */}
 
           <Route
-            path="accountdetails"
+            path="/ecommerceKTM/accountdetails"
             element={
               <RegisteredUser>
                 <AppLayout></AppLayout>
@@ -167,7 +167,7 @@ const App = () => {
           />
         
           <Route
-            path="orders"
+            path="/ecommerceKTM/orders"
             element={
               <RegisteredUser>
                 <AppLayout>
@@ -177,7 +177,7 @@ const App = () => {
             }
           />
           <Route
-            path="orderdetails/:orderId"
+            path="/ecommerceKTM/orderdetails/:orderId"
             element={
               <RegisteredUser>
                 <AppLayout>
@@ -187,7 +187,7 @@ const App = () => {
             }
           />
           <Route
-            path="profile"
+            path="/ecommerceKTM/profile"
             element={
               <RegisteredUser>
                 <AppLayout>
@@ -198,7 +198,7 @@ const App = () => {
           />
         
           <Route
-            path="profile/edit"
+            path="/ecommerceKTM/profile/edit"
             element={
               <RegisteredUser>
                 <AppLayout>
@@ -208,7 +208,7 @@ const App = () => {
             }
           />
           <Route
-            path="profileoptions"
+            path="/ecommerceKTM/profileoptions"
             element={
               <RegisteredUser>
                 <AppLayout>
@@ -218,7 +218,7 @@ const App = () => {
             }
           />
           <Route
-            path="reviews"
+            path="/ecommerceKTM/reviews"
             element={
               <RegisteredUser>
                 <AppLayout>
@@ -228,7 +228,7 @@ const App = () => {
             }
           />
           <Route
-            path="reviews/reviewedit"
+            path="/ecommerceKTM/reviews/reviewedit"
             element={
               <RegisteredUser>
                 <AppLayout>
@@ -238,7 +238,7 @@ const App = () => {
             }
           />
           <Route
-            path="shipping"
+            path="/ecommerceKTM/shipping"
             element={
               <AppLayout>
                 <ShippingDetails />
@@ -248,7 +248,7 @@ const App = () => {
 
           {/* -----------------FOR ADMIN---------------------------- */}
           <Route
-            path="dashboard"
+            path="/ecommerceKTM/dashboard"
             element={
               <RegisteredAdmin>
                 <DashboardLayout>
@@ -258,7 +258,7 @@ const App = () => {
             }
           />
           <Route
-            path="dashboard/notifications"
+            path="/ecommerceKTM/dashboard/notifications"
             element={
               <RegisteredAdmin>
                 {" "}
@@ -269,7 +269,7 @@ const App = () => {
             }
           />
           <Route
-            path="dashboard/orders"
+            path="/ecommerceKTM/dashboard/orders"
             element={
               <RegisteredAdmin>
                 {" "}
@@ -280,7 +280,7 @@ const App = () => {
             }
           />
           <Route
-            path="dashboard/products"
+            path="/ecommerceKTM/dashboard/products"
             element={
               <RegisteredAdmin>
                 <DashboardLayout>
@@ -291,7 +291,7 @@ const App = () => {
             }
           />
           <Route
-            path="dashboard/addproduct"
+            path="/ecommerceKTM/dashboard/addproduct"
             element={
               <RegisteredAdmin>
                 {" "}
@@ -302,7 +302,7 @@ const App = () => {
             }
           />
            <Route
-            path="dashboard/products/edit/:productId"
+            path="/ecommerceKTM/dashboard/products/edit/:productId"
             element={
               <RegisteredAdmin>
             
@@ -313,7 +313,7 @@ const App = () => {
             }
           />
           <Route
-            path="dashboard/reviews"
+            path="/ecommerceKTM/dashboard/reviews"
             element={
               <RegisteredAdmin>
                 {" "}
@@ -324,7 +324,7 @@ const App = () => {
             }
           />
           <Route
-            path="dashboard/slider"
+            path="/ecommerceKTM/dashboard/slider"
             element={
               <RegisteredAdmin>
                 {" "}
@@ -335,7 +335,7 @@ const App = () => {
             }
           />
           <Route
-            path="dashboard/addslider"
+            path="/ecommerceKTM/dashboard/addslider"
             element={
               <RegisteredAdmin>
                 {" "}
@@ -346,7 +346,7 @@ const App = () => {
             }
           />
            <Route
-            path="dashboard/slider/editSlider/:editId"
+            path="/ecommerceKTM/dashboard/slider/editSlider/:editId"
             element={
               <RegisteredAdmin>
             
@@ -357,7 +357,7 @@ const App = () => {
             }
           />
           <Route
-            path="dashboard/users"
+            path="/ecommerceKTM/dashboard/users"
             element={
               <RegisteredAdmin>
                 {" "}
